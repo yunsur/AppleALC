@@ -30,7 +30,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda ALC887</string>
+				<string>Toleda ALC887, 5/6 audio ports, native: 2 inputs, 3/4 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>1</integer>
 				<key>Path</key>
@@ -38,7 +38,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda ALC887</string>
+				<string>Toleda ALC887 3 audio ports, repurposed to 5.1: 0 inputs, 3 outputs+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>2</integer>
 				<key>Path</key>
@@ -46,7 +46,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Toleda ALC887</string>
+				<string>Toleda ALC887, 3 audio ports, native: 2 inputs, 1 output+front panel+SPDIF/Optical</string>
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Path</key>
@@ -259,6 +259,18 @@
 	</dict>
 	<key>Patches</key>
 	<array>
+		<dict>
+			<key>Count</key>
+			<integer>1</integer>
+			<key>Find</key>
+			<data>xgYASIu/aAE=</data>
+			<key>MinKernel</key>
+			<integer>18</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>xgYBSIu/aAE=</data>
+		</dict>
 		<dict>
 			<key>Count</key>
 			<integer>1</integer>
